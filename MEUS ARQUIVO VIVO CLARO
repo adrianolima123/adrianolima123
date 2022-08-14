@@ -40,7 +40,7 @@
       "Name": "SERVIDOR BRASIL",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "c.adrianolimanet.tk",
+      "ServerIP": "lima.adrianonet.tk",
       "CheckUser": "http://209.14.131.76:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
@@ -329,18 +329,10 @@
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
-   },
-    {
-      "Name": "🟡OI",
-      "FLAG": "oi",
-      "Payload": "GET \/ HTTP\/1.3[crlf]Host: [host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "oii.gdmhost.ga",
-      "TlsIP": "104.16.56.6",
-      "ProxyIP": "104.16.56.6",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-
-
-    }
+       }
   ]
 }
+      
+
+
+    
