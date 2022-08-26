@@ -1,7 +1,7 @@
 {
-  "Version": "1.0.0.3",
+  "Version": "1.0.0.4",
   "ReleaseNotes": "Nova Atualização Disponível 🦸🏻 \n\n MANTENHA O APLICATIVO \n SEMPRE ATUALIZANDO 📱\n •••••••••••••••••••••••••••••••••••••••••••••••••\n🆚 Versão: 1.0.0.0\n•••••••••••••••••••••••••••••••••••••••••••••••••\n🔰Funcionando 🔵 TIM 🟠 OI 🟢 VIVO\n===============================\n🗣️ Uma dica, recomendo ter dois chip\n🤖 Caso uma rede caia vc tem a outra\n🤖 Para se conectar tranquilamente✔️\n===============================\n🧑🏻‍💻 Qualquer dificuldade para se\n📱 Conectar entre em contato\n🙋🏻‍♂️ Com Suporte\n🤔 para ele te orientar 👍🏻….",
-  "UrlUpdate": "https://raw.githubusercontent.com/adrianolima123/adrianolima123/main/BR ",
+  "UrlUpdate": "https://raw.githubusercontent.com/adrianolima123/adrianolima123/main/BR",
   "Sms": "",
   "EmailFeedback": "",
   "UrlContato": "http://t.me/OriginalOficial",
@@ -10,7 +10,7 @@
   "UdpPort": "7300",
   "Servers": [
      {
-      "Name": "Servidor ( TIM ) 🇧🇷🚀",
+      "Name": "CLOUDFARE (TIM)(VIVO)",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "a.adrianonet.tk",
@@ -21,7 +21,7 @@
       "PASS": ""   
     },
     {
-      "Name": "Servidor ( CLOUDFRONT ) 🇧🇷🚀",
+      "Name": "CLOUDFRONT (VIVO) 🇧🇷🚀",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "d3pmzq4trt3md1.cloudfront.net",
@@ -34,27 +34,7 @@
   ],
   "Networks": [
     {
-      "Name": "☞ 𝗩𝗜𝗩𝗢 𝟱𝗚 𝟬𝟭 📡 🟢",
-      "FLAG": "vivo",
-      "Payload": "GET wss://unpkg.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "unpkg.com",
-      "TlsIP": "unpkg.com",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "☞ 𝗩𝗜𝗩𝗢 𝟱𝗚 𝟬𝟮 📡 🟣",
-      "FLAG": "vivo",
-      "Payload": "GET wss://portaljud.vivo.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "portaljud.vivo.com.br",
-      "TlsIP": "104.18.6.80",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-    {
-       "Name": "📱VIVO CLOUDFRONT 1📱",
+         "Name": "📱VIVO 01📱",
          "FLAG": "vivo",
          "Payload": "GET / HTTP/1.1[crlf]Host: d3pmzq4trt3md1.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
          "SNI": "",
@@ -64,7 +44,7 @@
          "Info": "Proxy"               
      },
      {
-         "Name":"📱VIVO Easy teste📱",
+         "Name":"📱VIVO 02📱",
          "Payload":"GET sni://legado.vivo.com.br HTTP/1.1[crlf]Host: d3pmzq4trt3md1.cloudfront.net[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
          "FLAG": "vivo",
          "SNI":"legado.vivo.com.br",
@@ -74,7 +54,7 @@
          "Info": "Proxy"
      },
     { 
-      "Name": "☞ 𝗧𝗜𝗠 𝟱𝗚 𝟬𝟭 📡 🔵", 
+      "Name": "☞ 𝗧𝗜𝗠  𝟬𝟭 📡 🔵", 
       "FLAG": "tim", 
       "Payload": "GET wss://bam.nr-data.net// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: I9Exp[crlf]Connection: Keep-Alive[crlf]Connection: Keep -Vivo[crlf][crlf]", 
       "SNI": "bam.nr-data.net", 
@@ -84,7 +64,7 @@
       "Info": "Tlsws" 
     },
     {
-      "Name": "☞ 𝗧𝗜𝗠 𝟱𝗚 𝟬𝟮 📡 🔵",
+      "Name": "☞ 𝗧𝗜𝗠  𝟬𝟮 📡 🔵",
       "FLAG": "tim",
       "Payload": "GET wss://bam.nr-data.net  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "bam.nr-data.net",
@@ -94,7 +74,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "☞ 𝗢𝗶 𝟱𝗚 𝟬𝟭 📡 🟠",
+      "Name": "☞ 𝗢𝗶  𝟬𝟭 📡 🟠",
       "FLAG": "oi",
       "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
       "SNI": "www.hbogo.com.br",
@@ -104,7 +84,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "☞ 𝗢𝗶 𝟱𝗚 𝟬𝟮 📡 🟠",
+      "Name": "☞ 𝗢𝗶  𝟬𝟮 📡 🟠",
       "FLAG": "oi",
       "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
       "SNI": "www.hbogo.com.br",
