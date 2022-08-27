@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.0.8",
+  "Version": "1.0.0.9",
   "ReleaseNotes": "Nova Atualização Disponível 🦸🏻 \n\n MANTENHA O APLICATIVO \n SEMPRE ATUALIZANDO 📱\n •••••••••••••••••••••••••••••••••••••••••••••••••\n🆚 Versão: 1.0.0.0\n•••••••••••••••••••••••••••••••••••••••••••••••••\n🔰Funcionando 🔵 TIM 🟠 OI 🟢 VIVO\n===============================\n🗣️ Uma dica, recomendo ter dois chip\n🤖 Caso uma rede caia vc tem a outra\n🤖 Para se conectar tranquilamente✔️\n===============================\n🧑🏻‍💻 Qualquer dificuldade para se\n📱 Conectar entre em contato\n🙋🏻‍♂️ Com Suporte\n🤔 para ele te orientar 👍🏻….",
   "UrlUpdate": "https://raw.githubusercontent.com/adrianolima123/adrianolima123/main/BR",
   "Sms": "adrianoiptvalp/update/admin/sms",
@@ -90,7 +90,7 @@
 "SNI":"d3pmzq4trt3md1.cloudfront.net",
 "Tlsip":"d3pmzq4trt3md1.cloudfront.net",
    "ProxyIP":"",
-   "ProxyPort":"433",
+   "ProxyPort":"443",
    "Info": "Proxy"     
     }
   ]
