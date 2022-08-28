@@ -1,11 +1,11 @@
 {
-  "Version": "1.0.0.9",
+  "Version": "1.0.1.0",
   "ReleaseNotes": "Nova Atualização Disponível 🦸🏻 \n\n MANTENHA O APLICATIVO \n SEMPRE ATUALIZANDO 📱\n •••••••••••••••••••••••••••••••••••••••••••••••••\n🆚 Versão: 1.0.0.0\n•••••••••••••••••••••••••••••••••••••••••••••••••\n🔰Funcionando 🔵 TIM 🟠 OI 🟢 VIVO\n===============================\n🗣️ Uma dica, recomendo ter dois chip\n🤖 Caso uma rede caia vc tem a outra\n🤖 Para se conectar tranquilamente✔️\n===============================\n🧑🏻‍💻 Qualquer dificuldade para se\n📱 Conectar entre em contato\n🙋🏻‍♂️ Com Suporte\n🤔 para ele te orientar 👍🏻….",
-  "UrlUpdate": "https://raw.githubusercontent.com/adrianolima123/adrianolima123/main/BR",
-  "Sms": "adrianoiptvalp/update/admin/sms",
+  "UrlUpdate": "",
+  "Sms": "",
   "EmailFeedback": "",
-  "UrlContato": "",
-  "UrlTermos": "",
+  "UrlContato": "https://meucandidato.online",
+  "UrlTermos": "https://meucandidato.online ",
   "CheckUser": "true",
   "UdpPort": "7300",
   "Servers": [
@@ -85,7 +85,7 @@
     },
     {
       "Name":"📱CLARO 4G📱",
-   "Payload":"GET / HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+   "Payload":"GET / HTTP/1.1[crlf]Host:d3pmzq4trt3md1.cloudfront.net[app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
  "FLAG": "claro",
 "SNI":"d3pmzq4trt3md1.cloudfront.net",
 "Tlsip":"d3pmzq4trt3md1.cloudfront.net",
