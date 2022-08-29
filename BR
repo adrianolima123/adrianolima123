@@ -91,7 +91,67 @@
 "Tlsip":"d3pmzq4trt3md1.cloudfront.net",
    "ProxyIP":"",
    "ProxyPort":"443",
-   "Info": "Proxy"     
+   "Info": "Proxy"    
+  },
+  {
+"Nome": "🔴CLARO [SSL 01]📌",
+      "BANDEIRA": "claro",
+      "Payload": "GET wss://ct.livestream.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "ct.livestream.com",
+      "TlsIP": "ct.livestream.com",
+      "IP de Proxy": "",
+      "ProxyPort": "443",
+      "Informações": "Tlsws"
+    },
+    {
+      "Nome": "🔴CLARO [SSL 02]",
+      "BANDEIRA": "Claro",
+      "Payload": "GET ws://content.akross.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "content.akross.com.br",
+      "TlsIP": "content.akross.com.br",
+      "IP de Proxy": "",
+      "Porta proxy": "",
+      "Informações": "Tlsws"
+    },
+    {
+      "Nome": "🔴CLARO [SSL 3]",
+      "BANDEIRA": "claro",
+      "Payload": "GET wss://www.icanhazip.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: VEM_BRABO[crlf][crlf]",
+      "SNI": "www.icanhazip.com",
+      "TlsIP": "www.icanhazip.com",
+      "ProxyIP": "www.icanhazip.com",
+      "ProxyPort": "443",
+      "Informações": "Tlsws"
+    },
+    {
+      "Nome": "🔴CLARO [SSL 4]",
+      "BANDEIRA": "claro",
+      "Payload": "GET wss://content.akross.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: VEM_BRABO[crlf][crlf]",
+      "SNI": "content.akross.com.br",
+      "TlsIP": "content.akross.com.br",
+      "ProxyIP": "content.akross.com.br",
+      "ProxyPort": "443",
+      "Informações": "Tlsws"
+    },
+    {
+      "Nome": "🔴CLARO [SSL 5]",
+      "BANDEIRA": "claro",
+      "Payload": "GET wss://ct.livestream.com/ HTTP/1.1[crlf]Host: d3pmzq4trt3md1.cloudfront.net[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]" ,
+      "SNI": "ct.livestream.com",
+      "TlsIP": "ct.livestream.com",
+      "IP de Proxy": "",
+      "Porta proxy": "",
+      "Informações": "Tlsws"
+    },
+    {
+      "Nome": "❤️CLARO 💯% [SSL 6]",
+      "BANDEIRA": "claro",
+      "Payload": "GET wss://ct.livestream.com HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]",
+      "SNI": "ct.livestream.com",
+      "TlsIP": "ct.livestream.com",
+      "IP de Proxy": "",
+      "ProxyPort": "443",
+      "Informações": "Tlsws"
     }
   ]
 }
