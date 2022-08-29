@@ -1,6 +1,6 @@
 {
 
-  "Versão": "3.1.9",
+  "Versão": "2.1.9",
   "ReleaseNotes": "👋 UPDATE ! 👋 \n 🎁O que mudou?🎁\/n ⚡️Novas Payload; \n ⚡️Melhorias no UDP \n ⚡️Troca de DNS \n ⚠️ATENÇÃO!!!⚠️ \n Sempre de olho nas do app pois pode conter informações importantes tais como recados/promoções.",
   "UrlUpdate": "https://github.com/adrianolima123/adrianolima123/blob/main/MEUS%20ARQUIVO%20VIVO%20CLARO",
   "SMS": "",
@@ -15,7 +15,7 @@
   ],
   "Servidores": [
     {
-      "Nome": "SERVIDOR ADRIANO 01",
+      "Nome": "SERVIDOR ADRI 01",
       "TIPO": "premium",
       "BANDEIRA": "br.png",
       "ServerIP": "d3pmzq4trt3md1.cloudfront.net",
@@ -37,7 +37,7 @@
       "PASSAR": ""
       },
     {
-      "Nome": "LIMA 02",
+      "Nome": "SERVIDOR 02",
       "TIPO": "premium",
       "BANDEIRA": "br.png",
       "ServerIP": "a.adrianonet.tk",
@@ -325,7 +325,7 @@
 }
   "Versão": "1.0.3",
   "Notas de Lançamento": "",
-  "UrlUpdate": "https://bitbin.it/ny58Jjh9/raw/",
+  "UrlUpdate": "https://github.com/adrianolima123/adrianolima123/blob/main/MEUS%20ARQUIVO%20VIVO%20CLARO",
   "Sms": "https://kiritosshxd.github.io/Conecta4g_site/UrlSms",
   "EmailFeedback": "kiritosshxd5733@gmail.com",
   "UrlContato": "https://wa.me/qr/HPLNNY3V4IHSO1",
@@ -353,8 +353,8 @@
       "Nome": "BRASIL BR-4 |VIP",
       "TIPO": "premium",
       "BANDEIRA": "br.png",
-      "ServerIP": "topzera.topzera.space",
-      "CheckUser": "http://topzera.topzera.space:5454/checkUser",
+      "ServerIP": "frontbr.adrianonet.tk",
+      "CheckUser": "",
       "ServerPort": "22",
       "Porta SSL": "443",
       "DO UTILIZADOR": "",
@@ -364,8 +364,8 @@
       "Nome": "BRASIL BR-5 |VIP",
       "TIPO": "premium",
       "BANDEIRA": "br.png",
-      "ServerIP": "verassh.veraszk.online",
-      "CheckUser": "http://verassh.veraszk.online:5454/checkUser",
+      "ServerIP": "a.adrianonet.tk",
+      "CheckUser": "",
       "ServerPort": "22",
       "Porta SSL": "443",
       "DO UTILIZADOR": "",
@@ -375,8 +375,8 @@
        "Nome": "BRASIL BR-5 |VIP",
       "TIPO": "premium",
       "BANDEIRA": "br.png",
-      "ServerIP": "verassh.veraszk.online",
-      "CheckUser": "http://verassh.veraszk.online:5454/",
+      "ServerIP": "adrianonet.tk",
+      "CheckUser": "http://adrianonet.tk:5454/",
       "ServerPort": "22",
       "Porta SSL": "443",
       "DO UTILIZADOR": "",
