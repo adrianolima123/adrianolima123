@@ -1,6 +1,6 @@
 {
   "Version": "1.0.1.",
-  "ReleaseNotes": "Nova Atualização Disponível 🦸🏻 \n\n MANTENHA O APLICATIVO \n SEMPRE ATUALIZANDO 📱\n •••••••••••••••••••••••••••••••••••••••••••••••••\n🆚 Versão: 1.0.0.0\n•••••••••••••••••••••••••••••••••••••••••••••••••\n🔰Funcionando 🔵 TIM 🟠 OI 🟢 VIVO\n===============================\n🗣️ Uma dica, recomendo ter dois chip\n🤖 Caso uma rede caia vc tem a outra\n🤖 Para se conectar tranquilamente✔️\n===============================\n🧑🏻‍💻 Qualquer dificuldade para se\n📱 Conectar entre em contato\n🙋🏻‍♂️ Com Suporte\n🤔 para ele te orientar 👍🏻….",
+  "ReleaseNotes": "Nova Atualização Disponível 🦸🏻 \n\n MANTENHA O APLICATIVO \n SEMPRE ATUALIZANDO 📱\n •••••••••••••••••••••••••••••••••••••••••••••••••\n🆚 Versão: 1.0.0\n•••••••••••••••••••••••••••••••••••••••••••••••••\n🔰Funcionando 🔵 TIM 🟠 OI 🟢 VIVO\n===============================\n🗣️ Uma dica, recomendo ter dois chip\n🤖 Caso uma rede caia vc tem a outra\n🤖 Para se conectar tranquilamente✔️\n===============================\n🧑🏻‍💻 Qualquer dificuldade para se\n📱 Conectar entre em contato\n🙋🏻‍♂️ Com Suporte\n🤔 para ele te orientar 👍🏻….",
   "UrlUpdate": "https://raw.githubusercontent.com/adrianolima123/adrianolima123/main/BR",
   "Sms": "https://cidadeconectada.online",
   "EmailFeedback": "",
@@ -74,7 +74,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "☞ 𝗢𝗶  𝟬𝟭 📡 🟠",
+      "Name": "☞ 𝗢𝗶 (𝟬𝟭) 📡 🟠",
       "FLAG": "oi",
       "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
       "SNI": "www.hbogo.com.br",
@@ -84,7 +84,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "☞ 𝗢𝗶  𝟬𝟮 📡 🟠",
+      "Name": "☞ 𝗢𝗶 (02) 📡 🟠",
       "FLAG": "oi",
       "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
       "SNI": "www.hbogo.com.br",
