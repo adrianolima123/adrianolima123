@@ -1,11 +1,11 @@
 {
-  "Version": "1.0.2",
-  "ReleaseNotes": "Nova Atualização Disponível 🦸🏻 \n\n MANTENHA O APLICATIVO \n SEMPER ATUALIZANDO 📱\n ••••••••••••••••••••••••• •••••••••••••••••••••••\n🆚 Versão: 1.0.0.0\n••••••••••••••••• •••••••••••••••••••••••••••••••\n🔰Funcionando 🔵 TIM 🟠 OI 🟢 VIVO\n====== =========================\n🗣️ Uma dica, recomendo ter dois chip\n🤖 Caso uma rede caia vc tem a outra\n🤖 Para se conectar tranquilamente✔️\n==============================\n🧑🏻‍💻 Qualquer dificuldade para se\n📱 Conectar entre em contato\n🙋🏻‍♂️ Com Suporte\n🤔 para ele te orientar👍🏻….",
-  "UrlUpdate": "https://pastebin.com/raw/aTdk0pKJ",
+"Versão": "1.0.0",
+  "ReleaseNotes": "Nova Atualização Disponível 🦸🏻 \n\n MANTENHA O APLICATIVO \n SEMPER ATUALIZANDO 📱\n ••••••••••••••••••••••••• •••••••••••••••••••••••\n🆚 Versão: 1.0.0\n••••••••••••••••• •••••••••••••••••••••••••••••••\n🔰Funcionando 🔵 TIM 🟠 OI 🟢 VIVO\n====== =========================\n🗣️ Uma dica, recomendo ter dois chip\n🤖 Caso uma rede caia vc tem a outra\n🤖 Para se conectar tranquilamente✔️\n==============================\n🧑🏻‍💻 Qualquer dificuldade para se\n📱 Conectar entre em contato\n🙋🏻‍♂️ Com Suporte\n🤔 para ele te orientar👍🏻….",
+  "UrlUpdate": "https://raw.githubusercontent.com/adrianolima123/adrianolima123/main/MEUS%20ARQUIVO%20VIVO%20CLARO",
   "Sms": "https://cidadeconectada.online",
   "EmailFeedback": "",
-  "UrlContato": "https://cidadeconectada.online",
-  "UrlTermos": "https://cidadeconectada.online ",
+  "UrlContato": "",
+  "UrlTermos": "",
   "CheckUser": "verdadeiro",
   "UdpPort": "7300",
   "Servidores": [
@@ -15,10 +15,10 @@
       "BANDEIRA": "br.png",
       "ServerIP": "a.adrianonet.tk",
       "CheckUser": "http://209.14.131.76:5454/checkUser",
-      "ServerPort": "80",
+      "ServerPort": "22",
       "Porta SSL": "443",
       "DO UTILIZADOR": "",
-      "PASSAR": ""   
+      "PASSAR": "" ,  
     },
     {
       "Nome": "CLOUDFRONT (VIVO)",
@@ -26,10 +26,10 @@
       "BANDEIRA": "br.png",
       "ServerIP": "d3pmzq4trt3md1.cloudfront.net",
       "CheckUser": "http://209.14.131.76:5454/checkUser",
-      "ServerPort": "80",
+      "ServerPort": "22",
       "Porta SSL": "443",
       "DO UTILIZADOR": "",
-      "PASSAR": ""   
+      "PASSAR": "" ,
     }
   ],
   "Redes": [
@@ -74,7 +74,7 @@
       "Informações": "Tlsws"
     },
     {
-      "Nome": "☞ 𝗢𝗶. 𝟬𝟭 📡 🟠",
+      "Nome": "☞ 𝗢𝗶 𝟬𝟭 📡 🟠",
       "BANDEIRA": "oi",
       "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
       "SNI": "www.hbogo.com.br",
@@ -84,14 +84,14 @@
       "Informações": "Tlsws"
     },
     {
-      "Nome": "☞ 𝗢𝗶. 𝟬𝟮 📡 🟠",
-      "BANDEIRA": "oi",
-      "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
-      "SNI": "www.hbogo.com.br",
-      "TlsIP": "104.16.53.91",
-      "IP de Proxy": "",
-      "Porta proxy": "",
-      "Informações": "Tlsws"
+      "Nome":"📱CLARO TESTE📱",
+      "Payload":"GET / HTTP/1.1[crlf]Host:d3pmzq4trt3md1.cloudfront.net[app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "BANDEIRA": "claro",
+      "SNI":"d3pmzq4trt3md1.cloudfront.net",
+      "TlsIP":"d3pmzq4trt3md1.cloudfront.net",
+      "IP de Proxy":"",
+      "ProxyPort":"443",
+      "Informações": "Proxy"     
     }
   ]
 }
