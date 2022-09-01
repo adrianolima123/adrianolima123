@@ -84,14 +84,7 @@
       "Informações": "Tlsws"
     },
     {
-      "Nome":"📱CLARO TESTE📱",
-      "Payload":"GET / HTTP/1.1[crlf]Host:d3pmzq4trt3md1.cloudfront.net[app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "BANDEIRA": "claro",
-      "SNI":"d3pmzq4trt3md1.cloudfront.net",
-      "TlsIP":"d3pmzq4trt3md1.cloudfront.net",
-      "IP de Proxy":"",
-      "ProxyPort":"443",
-      "Informações": "Proxy"     
+           
     }
   ]
 }
