@@ -1,10 +1,10 @@
 {
-  "Versão": "1.0.0.8",
+"Versão": "1.0.0",
   "ReleaseNotes": "Nova Atualização Disponível 🦸🏻 \n\n MANTENHA O APLICATIVO \n SEMPER ATUALIZANDO 📱\n ••••••••••••••••••••••••• •••••••••••••••••••••••\n🆚 Versão: 1.0.0\n••••••••••••••••• •••••••••••••••••••••••••••••••\n🔰Funcionando 🔵 TIM 🟠 OI 🟢 VIVO\n====== =========================\n🗣️ Uma dica, recomendo ter dois chip\n🤖 Caso uma rede caia vc tem a outra\n🤖 Para se conectar tranquilamente✔️\n==============================\n🧑🏻‍💻 Qualquer dificuldade para se\n📱 Conectar entre em contato\n🙋🏻‍♂️ Com Suporte\n🤔 para ele te orientar👍🏻….",
   "UrlUpdate":"https://raw.githubusercontent.com/adrianolima123/adrianolima123/main/BR",
   "Sms":"https://cidadeconectada.online",
   "EmailFeedback":"https://cidadeconectada.online",
-  "UrlContato": "",
+  "UrlContato": "https://cidadeconectada.online",
   "UrlTermos": "",
   "CheckUser": "verdadeiro",
   "UdpPort": "7300",
@@ -32,7 +32,7 @@
       "PASSAR": "" ,
     }
   ],
-      "Redes": [
+  "Redes": [
     {
          "Nome": "📱VIVO 01📱",
          "BANDEIRA": "vivo",
@@ -74,24 +74,14 @@
       "Informações": "Tlsws"
     },
     {
-      "Nome": "☞ 𝗢𝗶 𝟬𝟭 📡 🟠",
+      "Nome": "☞ 𝗢𝗶 TESTE 📡 🟠",
       "BANDEIRA": "oi",
       "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
       "SNI": "www.hbogo.com.br",
       "TlsIP": "www.hbogo.com.br",
       "IP de Proxy": "",
       "Porta proxy": "",
-      "Informações": "Tlsws"
-    },
-    {
-      "Nome":"📱CLARO TESTE📱",
-      "Payload":"GET / HTTP/1.1[crlf]Host:d3pmzq4trt3md1.cloudfront.net[app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "BANDEIRA": "claro",
-      "SNI":"d3pmzq4trt3md1.cloudfront.net",
-      "TlsIP":"d3pmzq4trt3md1.cloudfront.net",
-      "IP de Proxy":"",
-      "ProxyPort":"",
-      "Informações": "Proxy"     
+      "Informações": "Tlsws"     
     }
   ]
 }
