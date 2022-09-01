@@ -54,7 +54,7 @@
          "Informações": "Proxy"
      },
     {
-      "Nome": "☞ 𝗧𝗜𝗠 𝟬𝟭 📡 🔵",
+      "Nome": "☞ 𝗧𝗜𝗠 (𝟬𝟭) 📡 🔵",
       "BANDEIRA": "tim",
       "Payload": "GET wss://bam.nr-data.net// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: I9Exp[crlf]Connection: Keep-Alive[crlf]Connection: Keep -Vivo[crlf][crlf]",
       "SNI": "bam.nr-data.net",
@@ -64,7 +64,7 @@
       "Informações": "Tlsws"
     },
     {
-      "Nome": "☞ 𝗧𝗜𝗠 𝟬𝟮 📡 🔵",
+      "Nome": "☞ 𝗧𝗜𝗠 (𝟬𝟮) 📡 🔵",
       "BANDEIRA": "tim",
       "Payload": "GET wss://bam.nr-data.net HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "bam.nr-data.net",
