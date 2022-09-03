@@ -1,98 +1,172 @@
 {
-"Versão": "1.0.1",
-  "ReleaseNotes":"Nova Atualização Disponível 🦸🏻 \n\n MANTENHA O APLICATIVO \n SEMPER ATUALIZANDO 📱\n ••••••••••••••••••••••••• •••••••••••••••••••••••\n🆚 Versão: 1.0.0\n••••••••••••••••• •••••••••••••••••••••••••••••••\n🔰Funcionando 🔵 TIM 🟠 OI 🟢 VIVO\n====== =========================\n🗣️ Uma dica, recomendo ter dois chip\n🤖 Caso uma rede caia vc tem a outra\n🤖 Para se conectar tranquilamente✔️\n==============================\n🧑🏻‍💻 Qualquer dificuldade para se\n📱 Conectar entre em contato\n🙋🏻‍♂️ Com Suporte\n🤔 para ele te orientar👍🏻….",
-  "UrlUpdate":"https://raw.githubusercontent.com/adrianolima123/adrianolima123/main/BR",
-  "Sms":"https://cidadeconectada.online",
-  "EmailFeedback": "",
-  "UrlContato": "https://cidadeconectada.online",
-  "UrlTermos": "",
-  "CheckUser": "verdadeiro",
-  "UdpPort": "7300",
-  "Servidores": [
-     {
-      "Nome": "CLOUDFARE (TIM)(VIVO)",
-      "TIPO": "premium",
-      "BANDEIRA": "br.png",
-      "ServerIP": "a.adrianonet.tk",
-      "CheckUser": "http://209.14.131.76:5454/checkUser",
-      "ServerPort": "22",
-      "Porta SSL": "443",
-      "DO UTILIZADOR": "",
-      "PASSAR": "" ,  
-    },
-    {
-      "Nome": "CLOUDFRONT (VIVO)",
-      "TIPO": "premium",
-      "BANDEIRA": "br.png",
-      "ServerIP": "d3pmzq4trt3md1.cloudfront.net",
-      "CheckUser": "http://209.14.131.76:5454/checkUser",
-      "ServerPort": "22",
-      "Porta SSL": "443",
-      "DO UTILIZADOR": "",
-      "PASSAR": "" ,
-    }
-  ],
-  "Redes": [
-    {
-         "Nome": "📱VIVO 01📱",
-         "BANDEIRA": "vivo",
-         "Payload": "GET / HTTP/1.1[crlf]Host: d3pmzq4trt3md1.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
-         "SNI": "",
-         "TlsIP": "live.vivo.com.br",
-         "ProxyIP": "live.vivo.com.br",
-         "ProxyPort": "80",
-         "Informações": "Proxy"               
-     },
-     {
-         "Nome":"📱VIVO 02📱",
-         "Payload":"GET sni://legado.vivo.com.br HTTP/1.1[crlf]Host: d3pmzq4trt3md1.cloudfront.net[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf] ",
-         "BANDEIRA": "vivo",
-         "SNI":"legado.vivo.com.br",
-         "Tlsip":"legado.vivo.com.br",
-         "ProxyIP":"legado.vivo.com.br",
-         "ProxyPort":"443",
-         "Informações": "Proxy"
-     },
-    {
-      "Nome": "☞ 𝗧𝗜𝗠 (𝟬𝟭) 📡 🔵",
-      "BANDEIRA": "tim",
-      "Payload": "GET wss://bam.nr-data.net// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: I9Exp[crlf]Connection: Keep-Alive[crlf]Connection: Keep -Vivo[crlf][crlf]",
-      "SNI": "bam.nr-data.net",
-      "TlsIP": "162.247.241.14",
-      "IP de Proxy": "",
-      "ProxyPort": "443",
-      "Informações": "Tlsws"
-    },
-    {
-      "Nome": "☞ 𝗧𝗜𝗠 (𝟬𝟮) 📡 🔵",
-      "BANDEIRA": "tim",
-      "Payload": "GET wss://bam.nr-data.net HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "bam.nr-data.net",
-      "TlsIP": "bam.nr-data.net",
-      "IP de Proxy": "",
-      "ProxyPort": "443",
-      "Informações": "Tlsws"
-    },
-    {
-      "Nome": "☞ 𝗢𝗶 𝟬𝟭 📡 🟠",
-      "BANDEIRA": "oi",
-      "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
-      "SNI": "www.hbogo.com.br",
-      "TlsIP": "www.hbogo.com.br",
-      "IP de Proxy": "",
-      "Porta proxy": "",
-      "Informações": "Tlsws"
-    },
-    {
-      "Nome":"📱CLARO TESTE📱",
-      "Payload":"GET / HTTP/1.1[crlf]Host:d3pmzq4trt3md1.cloudfront.net[app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "BANDEIRA": "claro",
-      "SNI":"d3pmzq4trt3md1.cloudfront.net",
-      "TlsIP":"d3pmzq4trt3md1.cloudfront.net",
-      "IP de Proxy":"",
-      "ProxyPort":"443",
-      "Informações": "Proxy"     
-    {
-    }
-  ]
-}
+"Version":"4.2",
+"ReleaseNotes":"Novas configurações adicionadas e funcionando em varias regiões.",
+"Servers":[
+{
+"Name":"Servidor Brasil 1",
+"FLAG":"br.png",
+"ServerIP":"d3crjs7dff5pmd.cloudfront.net",
+"ServerPort":"80",
+"SSLPort":"443",
+"ProxyIP":"recarga.vivo.com.br",
+"ProxyPort":"80",
+"ServerUser":"",
+"ServerPass":""
+},
+],
+"Networks":[
+
+{
+"Name":"VIVO On",
+"Payload":"GET / HTTP/1.1[crlf]Host: d3crjs7dff5pmd.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+"SNI":"",
+"Info":"proxy",
+"FLAG":"ic_v.png",
+"useTimer":true,
+"isSSL":false
+},
+{
+"Name":"VIVO EASY",
+"Payload":"104.24.11.16",
+"SNI":"",
+"Info":"web",
+"FLAG":"ic_v.png",
+"useTimer":true,
+"isSSL":false
+},
+{
+"Name":"VIVO REGIÕES",
+"Payload":"172.67.165.43",
+"SNI":"",
+"Info":"web",
+"FLAG":"ic_v.png",
+"useTimer":true,
+"isSSL":false
+},
+{
+"Name":"VIVO REGIÕES 2",
+"Payload":"104.21.11.51",
+"SNI":"",
+"Info":"web",
+"FLAG":"ic_v.png",
+"useTimer":true,
+"isSSL":false
+},
+{
+"Name":"VIVO SSLPAY 1",
+"Payload":"104.18.6.80",
+"SNI":"vivo360.vivo.com.br",
+"Info":"sslwsspay",
+"FLAG":"ic_v.png",
+"useTimer":true,
+"isSSL":false
+},
+{
+"Name":"VIVO SSLPAY 2",
+"Payload":"104.21.11.51",
+"SNI":"legado.vivo.com.br",
+"Info":"sslwsspay",
+"FLAG":"ic_v.png",
+"useTimer":true,
+"isSSL":false
+},
+{
+"Name":"VIVO SSLPAY 3",
+"Payload":"104.21.11.51",
+"SNI":"mycannabisconversation.com.br",
+"Info":"sslwsspay",
+"FLAG":"ic_v.png",
+"useTimer":true,
+"isSSL":false
+},
+{
+"Name":"VIVO REGIÕES 3",
+"Payload":"104.16.122.175",
+"SNI":"",
+"Info":"web",
+"FLAG":"ic_v.png",
+"useTimer":true,
+"isSSL":false
+},
+{
+"Name":"VIVO REGIÕES 4",
+"Payload":"172.67.165.43",
+"SNI":"",
+"Info":"web",
+"FLAG":"ic_v.png",
+"useTimer":true,
+"isSSL":false
+},
+{
+"Name":"VIVO REGIÕES 5",
+"Payload":"104.21.11.51",
+"SNI":"",
+"Info":"web",
+"FLAG":"ic_v.png",
+"useTimer":true,
+"isSSL":false
+},
+{
+"Name":"VIVO REGIÕES 6",
+"Payload":"104.18.6.80",
+"SNI":"",
+"Info":"web",
+"FLAG":"ic_v.png",
+"useTimer":true,
+"isSSL":false
+},
+{
+"Name":"OI SSLPAY",
+"Payload":"www.hbogo.com.br",
+"SNI":"www.hbogo.com.br",
+"Info":"sslwsspay",
+"FLAG":"ic_o.png",
+"useTimer":true,
+"isSSL":false
+},
+{
+"Name":"TIM ON",
+"Payload":"bam.nr-data.net",
+"SNI":"bam.nr-data.net",
+"Info":"sslwsspay",
+"FLAG":"ic_t.png",
+"useTimer":true,
+"isSSL":false
+},
+{
+"Name":"TIM ON 2",
+"Payload":"blog.alura.com.br",
+"SNI":"blog.alura.com.br",
+"Info":"sslwsspay",
+"FLAG":"ic_t.png",
+"useTimer":true,
+"isSSL":false
+},
+
+
+{
+"Name":"CLAR ON",
+"Payload":"player-api.new.livestream.com",
+"SNI":"player-api.new.livestream.com",
+"Info":"sslwsspay",
+"FLAG":"ic_c.png",
+"useTimer":true,
+"isSSL":false
+},
+{
+"Name":"CLAR LENTO ON",
+"Payload":"content.akross.com.br",
+"SNI":"content.akross.com.br",
+"Info":"sslwsspay",
+"FLAG":"ic_c.png",
+"useTimer":true,
+"isSSL":false
+},
+{
+"Name":"CLAR REGIÕES",
+"Payload":"www.icanhazip.com",
+"SNI":"www.icanhazip.com",
+"Info":"sslwsspay",
+"FLAG":"ic_c.png",
+"useTimer":true,
+"isSSL":false}]}
