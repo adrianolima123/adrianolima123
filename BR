@@ -1,9 +1,9 @@
 {
-"Version":"4.2",
+"Version":"4.3",
 "ReleaseNotes":"Novas configurações adicionadas e funcionando em varias regiões.",
 "Servers":[
 {
-"Name":"Servidor Brasil 1",
+"Name":"Servidor PGNETTURBO 1",
 "FLAG":"br.png",
 "ServerIP":"d3crjs7dff5pmd.cloudfront.net",
 "ServerPort":"80",
@@ -17,7 +17,7 @@
 "Networks":[
 
 {
-"Name":"VIVO On",
+"Name":"VIVO CLOUDFRONT",
 "Payload":"GET / HTTP/1.1[crlf]Host: d3crjs7dff5pmd.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
 "SNI":"",
 "Info":"proxy",
@@ -145,7 +145,7 @@
 
 
 {
-"Name":"CLAR ON",
+"Name":"CLARO TESTANDO",
 "Payload":"player-api.new.livestream.com",
 "SNI":"player-api.new.livestream.com",
 "Info":"sslwsspay",
