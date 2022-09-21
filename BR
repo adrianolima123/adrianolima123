@@ -94,7 +94,7 @@
       "Info": "Tlsws"
      },
     {
-      "Name": "☞ 𝗢𝗶 TESTE 00 📡 🟠",
+      "Name": "☞ 𝗢𝗶 TESTE 📡 🟠",
       "FLAG": "oi",
       "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
       "SNI": "www.hbogo.com.br",
